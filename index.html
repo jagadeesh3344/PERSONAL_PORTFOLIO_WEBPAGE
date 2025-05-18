@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="generator" content="Hostinger Horizons" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="logo">DevPortfolio</div>
+        <nav>
+          <a href="#hero">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button id="mobile-menu-button" aria-label="Open menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+      <div id="mobile-menu" class="mobile-nav-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <div class="container hero-content">
+          <h1>Hi, I'm <span class="highlight-text">U. Venakta Jagadeesh</span></h1>
+          <p class="subtitle">A passionate Full-Stack Developer creating modern and responsive web applications.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container">
+          <h2>About Me</h2>
+          <div class="about-content">
+            <div class="about-image-container">
+              <img class="about-image" alt="Developer portrait - A young man in a denim jacket looking thoughtfully towards the sky." src="https://storage.googleapis.com/hostinger-horizons-assets-prod/3a340174-c67d-4309-a62c-8a4648e83eb5/d1036b2a753ce1edde8da02024833d7a.jpg" />
+            </div>
+            <div class="about-text">
+              <p>Hello! I'm a dedicated and results-oriented software developer with a knack for crafting elegant and efficient solutions. My journey in tech began with a fascination for how complex problems could be solved with code.</p>
+              <p>I specialize in building full-stack applications, with a strong focus on frontend technologies that deliver exceptional user experiences. I thrive in collaborative environments and am always eager to learn new skills.</p>
+              <h3>My Core Skills</h3>
+              <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Web Design</li>
+                <li>Responsive Layouts</li>
+                <li>Full Stack Development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h2>My Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <img  class="project-image" alt="Recipe Finding Website interface" src="https://images.unsplash.com/photo-1675793995559-dd813df4b2c3" />
+              <h3>Recipe Finding Website</h3>
+              <p>A dynamic website that allows users to search and discover various recipes. Built using JavaScript for interactive features.</p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn-link">Live Demo</a>
+                <a href="#" target="_blank" class="btn-link">Source Code</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img  class="project-image" alt="Color Removing Tool interface" src="https://images.unsplash.com/photo-1608699565448-9492aaf3c708" />
+              <h3>Color Removing Tool</h3>
+              <p>An intuitive tool built with HTML and CSS that allows users to remove specific colors from images or designs.</p>
+               <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn-link">Live Demo</a>
+                <a href="#" target="_blank" class="btn-link">Source Code</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img  class="project-image" alt="Ping Pong Game in action" src="https://images.unsplash.com/photo-1596616297948-75898a94276f" />
+              <h3>Ping Pong Game</h3>
+              <p>A fun and interactive Ping Pong game developed using JavaScript, showcasing game logic and browser interaction.</p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn-link">Live Demo</a>
+                <a href="#" target="_blank" class="btn-link">Source Code</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img  class="project-image" alt="Crypto Tracker dashboard" src="https://images.unsplash.com/photo-1568092715422-fff34eabbe84" />
+              <h3>Crypto Trackers</h3>
+              <p>A comprehensive application for tracking cryptocurrency prices and market trends, developed using full-stack technologies.</p>
+              <div class="project-tags">
+                <span>Full Stack</span>
+                <span>JavaScript</span>
+                <span>API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn-link">Live Demo</a>
+                <a href="#" target="_blank" class="btn-link">Source Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h2>Get In Touch</h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <h3>Let's Connect</h3>
+              <p>I'm always excited to discuss new projects or opportunities. Feel free to reach out!</p>
+              <p><strong>Email:</strong> <a href="mailto:your.email@example.com">uvjagadeesh1234@gmail.com</a></p>
+              <p><strong>Phone:</strong> +91 8978514653</p>
+            </div>
+            <form id="contact-form" class="contact-form">
+              <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <p>&copy; <span id="currentYear"></span> Jagadeesh. All rights reserved.</p>
+        
+      </div>
+    </footer>
+    <script>
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const navLinks = mobileMenu.querySelectorAll('a');
+
+      mobileMenuButton.addEventListener('click', () => {
+        const expanded = mobileMenuButton.getAttribute('aria-expanded') === 'true' || false;
+        mobileMenuButton.setAttribute('aria-expanded', !expanded);
+        mobileMenu.classList.toggle('open');
+        if (!expanded) {
+          mobileMenuButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>';
+        } else {
+          mobileMenuButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>';
+        }
+      });
+      
+      navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          const targetId = link.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+          if (targetElement) {
+            e.preventDefault();
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+          }
+          mobileMenu.classList.remove('open');
+          mobileMenuButton.setAttribute('aria-expanded', 'false');
+          mobileMenuButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>';
+        });
+      });
+
+      const desktopNavLinks = document.querySelectorAll('header#header nav a');
+      desktopNavLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+          const targetId = link.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+          if (targetElement) {
+            e.preventDefault();
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+
+
+      const contactForm = document.getElementById('contact-form');
+      contactForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Thank you for your message! (This is a demo, form data is not actually sent.)');
+        contactForm.reset();
+      });
+    </script>
+  </body>
+</html>
