@@ -1,0 +1,66 @@
+.contact-section .contact-content {
+  display: flex;
+  gap: 50px;
+  background-color: var(--card-background);
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  border: 1px solid var(--border-color);
+}
+
+.contact-section .contact-info {
+  flex: 1;
+}
+
+.contact-section .contact-info h3 {
+  font-size: 1.8rem;
+}
+
+.contact-section .contact-info p {
+  margin-bottom: 1em;
+  font-size: 1.05rem;
+}
+.contact-section .contact-info p strong {
+  color: var(--secondary-purple);
+}
+
+.contact-section .contact-form {
+  flex: 1.5;
+}
+
+.contact-form div {
+  margin-bottom: 25px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--secondary-purple);
+  font-size: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background-color: var(--background-light);
+  color: var(--text-color);
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--highlight-purple);
+  box-shadow: 0 0 0 3px rgba(190, 147, 253, 0.25);
+}
+
+.contact-form button {
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 15px;
+}

@@ -1,0 +1,16 @@
+footer#footer {
+  background-color: var(--background-dark);
+  color: var(--text-secondary-color);
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid var(--border-color);
+}
+
+footer#footer p {
+  margin-bottom: 0.5em;
+  font-size: 0.95rem;
+}
+footer#footer p:first-child {
+  color: var(--text-color);
+  font-weight: 500;
+}

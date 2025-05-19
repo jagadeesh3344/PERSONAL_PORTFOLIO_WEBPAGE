@@ -1,0 +1,103 @@
+header#header {
+  background-color: rgba(15, 5, 24, 0.85); 
+  backdrop-filter: blur(10px);
+  color: var(--text-color);
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  height: var(--header-height);
+  box-shadow: 0 2px 15px rgba(0,0,0,0.3);
+  border-bottom: 1px solid var(--border-color);
+}
+
+header#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header#header .logo {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--primary-purple);
+  letter-spacing: -1px;
+}
+
+header#header nav {
+  display: flex;
+  align-items: center;
+}
+
+header#header nav a {
+  color: var(--text-secondary-color);
+  margin-left: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+header#header nav a:hover {
+  color: var(--highlight-purple);
+  transform: translateY(-2px);
+}
+
+header#header nav a .nav-icon {
+  stroke: var(--secondary-purple);
+  transition: stroke 0.3s ease;
+}
+header#header nav a:hover .nav-icon {
+  stroke: var(--highlight-purple);
+}
+
+#mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+#mobile-menu-button svg {
+  stroke: var(--primary-purple);
+}
+
+.mobile-nav-links {
+  display: none;
+  flex-direction: column;
+  background-color: var(--background-medium);
+  position: absolute;
+  top: var(--header-height);
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  border-top: 1px solid var(--border-color);
+}
+
+.mobile-nav-links.open {
+  display: flex;
+}
+
+.mobile-nav-links a {
+  color: var(--text-secondary-color);
+  padding: 15px 25px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.mobile-nav-links a:last-child {
+  border-bottom: none;
+}
+
+.mobile-nav-links a:hover {
+  background-color: var(--background-light);
+  color: var(--highlight-purple);
+}

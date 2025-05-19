@@ -1,0 +1,22 @@
+.resume-section {
+  text-align: center;
+  background-color: var(--background-medium);
+}
+
+.resume-section h2 {
+  color: var(--primary-purple);
+}
+
+.resume-section p {
+  font-size: 1.1rem;
+  color: var(--text-secondary-color);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+.resume-section .btn {
+  font-size: 1.1rem;
+  padding: 15px 35px;
+}

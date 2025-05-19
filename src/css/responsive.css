@@ -1,0 +1,113 @@
+@media (max-width: 992px) {
+  .hero-content-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text-content {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .hero-image-content {
+    margin-top: 30px;
+  }
+  .hero-illustration {
+    max-height: 350px;
+  }
+  .about-section .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about-section .about-image-container {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  header#header nav {
+    display: none;
+  }
+  #mobile-menu-button {
+    display: block;
+  }
+  .hero-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .hero-text-content h1 {
+    font-size: 2rem;
+  }
+  .hero-text-content h1:nth-of-type(2) {
+    font-size: 2.8rem;
+  }
+  .developer-text {
+    font-size: 2rem;
+  }
+  .cursor {
+    height: 1.8rem;
+  }
+  .hero-illustration {
+    max-height: 300px;
+  }
+  .contact-section .contact-content {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .btn {
+    padding: 12px 25px;
+    font-size: 0.95rem;
+  }
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  h1 { font-size: 2.4rem; }
+  h2 { font-size: 2rem; }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding-top: 60px; 
+    --header-height: 60px;
+  }
+  header#header .logo {
+    font-size: 1.6rem;
+  }
+  .hero-text-content h1 {
+    font-size: 1.8rem;
+  }
+  .hero-text-content h1:nth-of-type(2) {
+    font-size: 2.2rem;
+  }
+  .developer-text {
+    font-size: 1.6rem;
+  }
+  .cursor {
+    height: 1.5rem;
+  }
+  .hero-illustration {
+    max-height: 250px;
+  }
+  .project-card {
+    padding: 20px;
+  }
+  .project-card h3 {
+    font-size: 1.4rem;
+  }
+  .contact-section .contact-content {
+    padding: 25px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+  }
+  .skills-list li {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,88 @@
+:root {
+  --primary-purple: #C8B6F6; 
+  --secondary-purple: #A699E3;
+  --accent-purple: #D7BDE2;
+  --highlight-purple: #BE93FD; 
+  --text-color: #EAEAEA;
+  --text-secondary-color: #B0B0D0;
+  --background-dark: #0F0518; 
+  --background-medium: #1A0B2E;
+  --background-light: #2A1A42; 
+  --card-background: #221338; 
+  --border-color: #4A3A6A;
+  --font-family: 'Inter', sans-serif;
+  --container-width: 1140px;
+  --header-height: 70px;
+  --star-color1: rgba(255, 255, 255, 0.4);
+  --star-color2: rgba(200, 200, 255, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--background-dark);
+  background-image: 
+    radial-gradient(var(--star-color1) 0.5px, transparent 0.5px),
+    radial-gradient(var(--star-color2) 0.5px, transparent 0.5px);
+  background-size: 50px 50px, 150px 150px;
+  background-position: 0 0, 25px 25px;
+  color: var(--text-color);
+  line-height: 1.7;
+  padding-top: var(--header-height);
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-bottom: 0.75em;
+  color: var(--primary-purple);
+}
+
+h1 { font-size: 2.8rem; line-height: 1.2; }
+h2 { font-size: 2.2rem; text-align: center; margin-bottom: 1.5em; }
+h3 { font-size: 1.5rem; color: var(--secondary-purple); }
+
+p {
+  margin-bottom: 1.2em;
+  color: var(--text-secondary-color);
+  font-size: 1rem;
+}
+
+a {
+  color: var(--accent-purple);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--highlight-purple);
+}
+
+section {
+  padding: 80px 0;
+  position: relative;
+}
+
+section:nth-child(even) {
+  background-color: var(--background-medium);
+   background-image: 
+    radial-gradient(rgba(255, 255, 255, 0.05) 0.5px, transparent 0.5px),
+    radial-gradient(rgba(200, 200, 255, 0.03) 0.5px, transparent 0.5px);
+  background-size: 50px 50px, 150px 150px;
+  background-position: 0 0, 25px 25px;
+}
