@@ -16,7 +16,7 @@ export default function Hero() {
         </a>
       </div>
       <div className="mt-6">
-        <img src="/profile.jpg" alt="U. Venkata Jagadeesh" width={120} height={120} className="rounded-full border-4 border-blue-300 shadow-lg mx-auto" />
+        <img src="/img/IMG_20231023_201545_209.jpg" alt="U. Venkata Jagadeesh" width={120} height={120} className="rounded-full border-4 border-blue-300 shadow-lg mx-auto" />
       </div>
     </section>
   );
